@@ -1,0 +1,45 @@
+/*
+Theme Name: ARKOSOFT
+Theme URI: http://www.arkosoft.it
+Description: Style grafico per il pannello S-Admin.
+Author: Arkosoft
+Author URI: http://www.arkosoft.it/
+Anno: 2009
+Email: info@arkosoft.it
+*/
+
+body{
+	background-color: #474747;
+}
+.contenitore{
+	width: 452px; 
+	height: 165px; 
+	background: #000 url('../immagini/sfondocar.jpg') no-repeat;
+}
+.freccie{
+	float: left; 
+	width: 120px; 
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 47px;
+}
+.testo{
+	float: left; 
+	width: 500px; 
+	padding-top: 30px;
+	font-family: Bodoni MT Black; 
+	font-size: 20px;
+	position: absolute;
+}
+.tlabel{
+	color: #DD0000; 
+	font-weight: bold;
+	padding-left: 130px;
+}
+.buffer{
+	width: 452px; 
+	height:37px; 
+	overflow: hidden;
+	padding-top: 130px;
+	position:absolute;
+}

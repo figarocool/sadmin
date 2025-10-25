@@ -1,0 +1,102 @@
+#commenti ol {
+margin: 0px auto;
+padding: 0;
+font-size: 13px;
+ list-style: none;
+}
+#commenti ol li {
+margin: 7px;
+padding: 0px;
+border: 1px solid #d4ecff;
+list-style-type: none;
+
+}
+#commenti small {
+font-size: 12px;
+color: #7d7d7d;
+}
+
+.karmamain {
+float: right;
+width: 70px;
+height: 39px;
+background-color: #fff;
+margin: 0;
+border: 1px solid #d4ecff;
+
+}
+
+.karmaleft {
+width: 48px;
+float: left;
+text-align: center;
+}
+
+.karmaleft p {
+font-size: 18px;
+font-weight: bold;
+padding: 5px 0 0 0;
+margin: -5px 0 -5px 0;
+text-align: center;
+color: #097cd5;
+}
+.karmaleft small {
+font-size: 14px;
+margin: 0;
+padding: 0;
+color: #097cd5;
+}
+
+.karmaright {
+width: 12px;
+margin-right: 2px;
+padding-right: 2px;
+text-align: center;
+font-size: 15px;
+float: right;
+}
+.karmaright img {
+margin: 0;
+padding: 2px 0 1px 0;
+border:none;
+}
+
+
+#commenti {
+width: 100%;
+
+}
+
+#commenti form {
+padding: 8px;
+margin: 0 auto;
+}
+#commenti input {
+margin: 0;
+padding: 2px;
+border:1px solid #69beff;
+background: #fff url(../immagini/sfondo_sfumato_32.png) repeat-x;
+color: #097cd5;
+width: 155px;
+vertical-align: middle;
+}
+#commenti textarea {
+margin: 0;
+padding: 2px;
+border:1px solid #69beff;
+background: #fff url(../immagini/sfondo_sfumato_32.png) repeat-x;
+color: #555;
+height: auto;
+width: 574px;
+vertical-align: middle;
+}
+
+* html #commenti textarea {
+width: 570px;}
+
+#commenti label {
+font-size: 11px;
+font-weight: bold;
+}
+
+

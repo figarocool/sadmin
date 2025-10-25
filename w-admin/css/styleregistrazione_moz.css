@@ -1,0 +1,549 @@
+/*
+Theme Name: ARKOSOFT
+Theme URI: http://www.arkosoft.it
+Description: Style grafico per il pannello S-Admin.
+Author: Arkosoft
+Author URI: http://www.arkosoft.it/
+*/
+
+body{
+	background: #EFEFEF url('../immagini/sfondo.jpg') repeat-x;
+}	
+
+
+
+/* HOME*/
+.box1{
+	width:100%; 
+	height: 370px;
+	/*border: 2px solid #ff0000;*/
+}
+.menusinistra{
+	float: left; 
+	width: 227px;
+	/*border: 2px solid #00ff00;*/
+}
+.affianco{
+	float: left; 
+	padding-left: 15px;
+}
+.captcha{
+	margin-left: 110px;
+}
+.check{
+	margin-left: 100px;	
+	font-weight: bold;
+}	
+.affianco1{
+	float: left; 
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.titolomenusinistra{
+	background: #FFFFFF url('../immagini/titolocategoria.jpg');
+	width: 190px; 
+	height: 28px; 
+	color: #fff;
+	font-weight: bold;
+	padding: 8px 0px 0px 35px; 
+	/*border: 2px solid #000;*/
+	
+}
+.sfondomenusinistra{
+	width: 100%; 
+	height: 285px; 
+	background: #FFFFFF url('../immagini/sfondocategoria.jpg');
+	padding: 8px 0px 0px 30px;
+}	
+.sfondomenusinistra li{
+	color: #252525;
+	background: url('../immagini/elenco.jpg') no-repeat left;
+	list-style-type: none;
+	font-weight: bold;
+	padding-left: 10px;
+}	
+.menudestra{
+	float: left; 
+	width: 76%;
+	/*margin-left: 5px;*/
+	/*border: 2px solid #000;*/
+}
+.logo{
+	float: left; 
+	width: 40%;
+}
+.foto{
+	float: left; 
+	width: 187px;
+	height: 288px;
+	margin-left: 250px;
+	background: #FFFFFF url('../immagini/menufoto.jpg');
+}
+.linkfoto{
+	margin-top:15px;
+	border: 0px solid #000;
+}
+.testo1{
+	float: left; 
+	color: #F40000; 
+	font-weight: bold; 
+	font-family: Arial Black; 
+	padding-left: 5px;
+}
+.srl{
+	font-size: 10px; 
+	font-weight: bold;
+}
+.boxnews{
+	height: 170px; 
+	width: 220px;
+}
+.boxnewsletter{
+	border: 1px solid #000; 
+	background: #EFEFEF url('../immagini/newsletter.jpg') no-repeat;
+	height: 130px; 
+}
+.boxemail{
+	padding: 50px 0px 0px 10px; 
+	font-weight: bold;	
+}
+.boxemail1{
+	padding: 10px 0px 0px 130px; 
+}
+.testo2{ 
+	color: #000; 
+	font-weight: bold; 
+	font-family: Arial Black; 
+	padding-left: 5px;
+}.testo3{
+	float: left; 
+	color: #F40000; 
+	font-weight: bold; 
+	font-family: Arial Black; 
+	padding-left: 5px;
+	padding-top: 15px;	
+}
+.testo4{
+	color: #000; 
+	font-weight: bold; 
+	font-family: Arial Black; 
+	padding: 15px 100px 0px 5px;
+}
+.contenuto{
+	width: 100%; 
+	/*border: 2px solid #000;*/
+}
+.menumarche{
+	float: left; 
+	width: 23%; 
+	/*border: 2px solid #ff0000;*/
+}
+.prodotti{
+	float: left; 
+	padding-left: 10px;
+	width: 745px; 
+}
+
+.registrazione{
+	margin-left: 50px;
+}
+.registrazionebutton{
+	padding-left: 350px;
+	padding-top: 20px;
+}
+.obbligatorio{
+	color: #ff0000;
+	font-weight: bold;
+}
+.boxreg{
+	/*border: 2px solid #000;*/
+	padding:5px 0px 5px 5px;
+}
+.boxreg div{
+	/*border: 2px solid #000;*/
+	width: 100px;
+	font-weight: bold;
+	float:left;
+}
+.error{
+	border:2px solid #ff0000;
+	background-color: #FF6A6A;
+}
+.bottonereg{
+	text-align:right; 
+	padding-right: 280px;
+}
+.testo{
+	padding-left: 10px;
+	width: 77%; 
+	/*border: 2px solid #ff0000;*/
+	font-family: Verdana;
+	font-size: 25px;
+	font-weight: bold;
+}
+.modulo{
+	width: 77%;
+	/*border: 2px solid #ff0000;*/
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 70px;
+	padding-top: 50px;
+}
+
+.box{
+	float: left;
+	width: 30%;
+}
+.campi{
+	/*border: 2px solid #ff0000; */
+	padding: 5px 50px 0px 5px; 
+	height: 40px;
+}
+.bottonerichiesta{
+	/*border: 2px solid #ff0000;*/
+	width: 100%;
+	padding-top: 30px;
+	text-align: right;
+}
+.linkcategoria{
+	text-decoration: none;
+	color: #000;
+}
+.errore{
+	border: 1px solid #000; 
+	width: 100%; 
+	height: 100px;
+	padding: 12px 0px 12px 10px; 
+	font-family: verdana; 
+	font-size: 16px; 
+	font-weight: bold; 
+	background-color: #FFFF8A;
+}
+.noerrore{
+	border: 1px solid #000; 
+	width: 100%; 
+	height: 50px;
+	padding: 12px 0px 12px 10px; 
+	font-family: verdana; 
+	font-size: 16px; 
+	font-weight: bold; 
+	background-color: #E6FFE6;
+}
+.nostremarche{
+	padding-left: 30px; 
+	font-weight: bold; 
+	color: #252525;
+}
+.nostremarche a{
+	color: #000;
+	text-decoration: none;
+}
+.nostremarche li{
+	color: #252525;
+	padding-left: 10px;
+	background: url('../immagini/elencomarche.gif') no-repeat left;
+	list-style-type: none;
+	font-weight: bold;
+}
+.indexmarche{
+	width: 100%;
+}
+.titolodati{
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: underline;
+	height: 223px;
+	overflow: hidden;
+}
+.dati{
+	color: #000;
+	padding-top: 5px;
+}
+
+
+
+/* MENU' PAGINE*/
+.menupag{	
+	height: 38px; 
+
+	/*border: 5px solid #000;*/
+}
+.home{
+	float:left; 
+	width:90px; 
+	height: 30px; 
+}
+.linkhome1{
+	background: url('../immagini/home.jpg');
+	float:left;  
+	background-repeat: no-repeat;
+	width:90px; 
+	height:29px; 
+	text-align:center;
+	font-family:Arial;
+	padding-top:8px;
+	text-decoration: none;
+	color:#fff;
+}
+a.linkhome1:hover{
+	background-position:0 -37px;
+	color: #fff;
+	text-decoration: none;
+}
+.centro{
+	float:left; 
+	width:115px; 
+	height: 29px;
+}	
+
+.linkcentro1{
+	float:left;  
+	background-repeat: no-repeat;
+	width:115px; 
+	height:29px; 
+	text-align:center;
+	font-family:Arial;
+	padding-top:8px;
+	text-decoration: none;
+	color:#fff;
+	background: url('../immagini/centro.jpg') repeat-x;
+}
+a.linkcentro1:hover{
+	background-position:0 -37px;
+	color: #fff;
+	text-decoration: none;
+}
+.contatti{
+	float:left; 
+	width:90px; 
+	height: 29px;
+}	
+.linkcontatti1{
+	float:left;  
+	background-repeat: no-repeat;
+	width:90px; 
+	height:29px; 
+	text-align:center;
+	font-family:Arial;
+	padding-top:8px;
+	text-decoration: none;
+	color:#fff;
+	background: url('../immagini/contatti.jpg');
+}
+a.linkcontatti1:hover{
+	background-position:0 -112px;
+	color: #fff;
+	text-decoration: none;
+}
+.boxaccedi{
+	border: 1px solid #000; 
+	background: #EFEFEF url('../immagini/accedi.jpg') no-repeat;
+	height: 141px; 
+}
+.boxaccedi1{
+	font-size:20px; 
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	padding: 50px 0px 0px 10px;	
+}
+a.boxaccedi1:hover{
+	color: #fff;
+	font-size:24px; 
+	text-decoration: none;
+}
+/*FINE MENU' PAGINE*/
+
+/* FINE HOME*/
+
+
+/* CARICO PRODOTTI*/
+.tabella_principale{
+	border: 2px dashed #BBBBBB; 
+	width: 100%;
+}
+
+.nomeprodotto{
+	width: 170px; 
+	height: 50px;
+}
+
+.descrizioneprodotto{
+	width: 170px; 
+	vertical-align: top;
+}
+
+.txtprodotto{
+	width: 170px; 
+	vertical-align: middle; 
+	height: 50px;
+}
+.iva{
+	padding-left:50px;
+}
+.titoloimg{
+	background-color: #000000;  
+	width:100%; 
+	height:35px;
+	font-size: 20px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	text-align: left;
+	font-weight: bold;
+}
+.divtitle{
+   	background-color: #000000;  
+	width:100%; 
+	color: #fff;
+	height:35px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	text-align: left;
+	font-weight: bold;
+}
+.rosso{
+	color: #FF0000;
+	font-weight: bold;
+}
+
+/*FINE CARICO PRODOTTI*/
+
+/*GESTIONE IMMAGINI*/
+.tabellaimmagini{
+	border: 2px dashed #BBBBBB; 
+	width: 100%;
+	background-color:FFFFFF;
+	height: 500px;
+}
+.anteprima{
+	border: 2px dashed #993333; 
+	width: 70%;
+	height: 100%;
+}
+.anteprimaprodotti{  
+	width:100%; 
+	height:35px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	text-align: left;
+	font-weight: bold;
+}
+/*FINE GESTIONE IMMAGINI*/
+
+
+/*VISUALIZZAZIONE PRODOTTI*/
+.prezzo{
+	color: #FF0000;
+	text-align: right;
+	font-size: 17px;
+	font-weight: bold;
+}
+.labelimmagine{ 
+	background-color: #000000; 
+	float:left; 
+	width:14%; 
+	height:30px;
+}
+.labelinfo{
+	background-color: #000000; 
+	float:left; 
+	width:73%; 
+	height:30px;
+}
+.labelmod{
+	background-color: #000000; 
+	float:left; 
+	width:6%; 
+	height:30px;
+}
+.labelelim{
+	background-color: #000000; 
+	float:left; 
+	width:7%; 
+	height:30px;
+}
+.divprodotto{
+	width: 98%;
+	margin: 0 5px 10px 50px;
+	height: 100px;
+	overflow:hidden;
+}
+.divtitoloprod{
+	width: 98%;
+	margin: 0px 0px 0px 50px; 
+	text-align: center;
+}
+
+.divtitoloprod1{
+	width: 98%;
+	margin: 0px 0px 0px 5px; 
+	text-align: center;
+}
+
+.divprodotto1{
+	width: 98%;
+	margin: 0px 0px 10px 5px;
+	height: 207px;
+	overflow:hidden;
+	border:1px solid #000;
+}
+.divimg{
+	border:1px solid #000; 
+	float:left; 
+	width:14%; 
+	height:100%; 
+	text-align: center;
+}
+.divimg1{
+	border:1px solid #000; 
+	float:left; 
+	width:14%; 
+	height:100%; 
+	text-align: center;
+}
+.divdesc{
+	overflow:hidden; 
+	border:1px solid #000; 
+	float:left; 
+	width:73%;
+	height:100%;
+	min-height: 80%;
+}
+.descbloc{
+	overflow:hidden; 
+	border:1px solid #000; 
+	float:left; 
+	width:73%;
+	height:100%;
+	min-height: 80%;
+	background: #F0F0F0 url('../immagini/blocco.jpg') no-repeat;
+}
+.divdesc1{
+	overflow:hidden; 
+	border:1px solid #000; 
+	float:left; 
+	width:73%;
+	height:100%;
+	min-height: 80%;
+}
+.descbloc1{
+	overflow:hidden; 
+	border:1px solid #000; 
+	float:left; 
+	width:73%;
+	height:100%;
+	min-height: 80%;
+	background: #F0F0F0 url('../immagini/blocco.jpg') no-repeat;
+}
+.bottonemodifica{
+	border:1px solid #000; 
+	float:left; 
+	width:6%; 
+	height:72px; 
+	padding-top: 30px; 
+	text-align: center;
+}
+.srl{
+	font-size: 10px; 
+	font-weight: bold;
+}
+/*FINE VISUALIZZAZIONE PRODOTTI*/

@@ -1,0 +1,58 @@
+.collabora{
+	float: left; 
+	width: 450px;
+	text-align:justify; 
+	color: #333; 
+	line-height: 16px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.collabora span{
+	color: #000; 
+	font-weight: bold;
+}
+.come{
+	color:#861A17; 
+	font-weight:bold;
+}	
+.myinputstyle {
+	border: 1px solid #CCCCCC;
+	background: url(../immagini/bg-input.gif) repeat-x #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 11px;
+	color: #333333;
+	width:200px;
+	margin-bottom:7px;
+}
+
+.myinputstyle:hover {
+	border: 1px solid #666666;
+	color: #333333;
+}
+
+label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight:bold;
+}
+
+.mybuttonstyle {
+	border: 1px solid #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight:bold;
+	font-size: 11px;
+	color: #333333;
+}
+
+.myinputstylecheck {
+	visibility: hidden;
+}
+.formcon{
+	float: left;
+	width: 250px; 
+	margin-left: 30px;
+	margin-top: 30px;
+}

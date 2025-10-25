@@ -1,0 +1,10 @@
+User-agent: *
+Disallow:
+
+# Internet Archiver Wayback Machine
+User-agent: ia_archiver
+Disallow: /
+
+# Does anyone care I love Google Apache htaccess
+Sitemap: http://demo.arkosoft.it/sitemap.xml
+

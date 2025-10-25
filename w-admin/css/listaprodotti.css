@@ -1,0 +1,30 @@
+/*
+Theme Name: ARKOSOFT
+Theme URI: http://www.arkosoft.it
+Description: Style grafico per il pannello S-Admin.
+Author: Arkosoft
+Author URI: http://www.arkosoft.it/
+*/
+
+
+/*lista prodotti*/
+body{
+	background-color: #CCC;
+}	
+.chiudilistaprodotti{ 
+	width: 16px;
+	height: 17px;
+	/*border: 1px solid #ff0000;*/
+	background-color: #CCC;
+}	
+.chiudilistaprodotti a{
+	text-decoration: none;
+	width: 16px;
+	height: 17px;
+} 
+.chiudilistaprodotti a:hover{
+	background: #EFEFEF url('../immagini/chiudi1.jpg') no-repeat; 
+	background-color: #CCC;
+}
+
+/*fine lista prodotti*/

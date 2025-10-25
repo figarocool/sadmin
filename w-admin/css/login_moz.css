@@ -1,0 +1,80 @@
+/*
+Theme Name: ARKOSOFT
+Theme URI: http://www.arkosoft.it
+Description: Style grafico per il pannello S-Admin.
+Author: Arkosoft
+Author URI: http://www.arkosoft.it/
+*/
+
+body{
+	background: #EFEFEF url('../immagini/sfondo.jpg') repeat-x;
+}
+
+/*LOGIN*/
+.boxlogin{
+	width: 330px;
+	margin: 10% 0px 0px 35%;
+}
+.boxlogin1{
+	width: 330px;
+	margin: 10% 0px 0px 35%;
+}
+.boxtitolo{
+	background: url('../immagini/titolologin.jpg');
+	height: 28px;
+	border: 1px solid #446985;
+	color: #fff;
+	font-weight: bold;
+}
+.titolologin{
+	margin: 3px 0px 0px 15px;
+}
+.boxcontent{
+	width: 100%;
+	height: 300px;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+.boxcontent1{
+	width: 100%;
+	height: 200px;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+.user{
+	width: 100%;
+	/*border: 1px solid #ff0000;*/
+	margin-left: 15%;
+	margin-top: 10%;
+}
+.titolouser{
+	color: #000;
+	font-weight: bold;
+}
+.link{
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.bottonelogin{
+	text-align: right;
+	padding-right: 60px;
+	padding-top: 20px;
+}
+
+.recuperopsw{
+	padding-left: 15%; 
+	padding-top:10%;
+}
+.recuperopsw a{
+	color: #000;
+	text-decoration:none;
+}	
+.loginerror{
+	border: 2px solid #000; 
+	background-color: #FFFF93; 
+	height: 30px; 
+	padding-top: 3px; 
+	padding-left: 5px;
+}
+/*FINE LOGIN*/

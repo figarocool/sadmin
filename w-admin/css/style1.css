@@ -1,0 +1,41 @@
+/*
+<!-- http://free-script.it/ -->
+<!-- Free script - Script gratuiti per il web. Script php, script asp, script javascript, script ajax. -->
+<!-- Script ajax: Drag and drop con scriptaculous e salvataggio posizione -->
+*/
+
+.container{
+	width:750px;
+	height: 500px;
+	overflow: hidden;
+	/*border: 1px solid #000;*/
+}
+
+.colonna{
+	float:left;
+	width:360px;
+	padding: 10px;
+	height: 500px;
+	/*border: 1px solid #000;*/
+}
+
+ul.sortabledemo {
+	width:300px;
+	height: 500px;
+}
+
+.itemasd {
+	height:220px;
+	border:1px solid #5788AF;
+	background-color: #CADDEC;
+	list-style-type: none;
+	margin-bottom:15px;
+}
+
+div.handleasd {
+	width: 100%;
+	background-color: #5788AF;
+	color:white;
+	cursor: move;
+	font-size: 18px;
+}

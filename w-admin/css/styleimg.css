@@ -1,0 +1,9 @@
+﻿#jqnewsVert
+{
+	overflow: hidden; height: 260px; width: 160px; margin:auto;
+}
+
+#jqnewsVert div
+{
+	display: block; overflow: hidden;  height: 90px; width: 150px; 
+}

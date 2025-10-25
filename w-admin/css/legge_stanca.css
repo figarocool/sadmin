@@ -1,0 +1,84 @@
+/*LEGGE STANCA*/
+.rssbutton{
+background-color: #ff6600;
+border: 1px #ff6600 outset;
+padding: 0 2px;
+color: white;
+text-decoration: none;
+font: bold 10px Verdana;
+}
+
+.rssbutton:visited, .rssbutton:hover, .rssbutton:active{
+color: white;
+}
+
+.cssbutton{ background-color: #d1ec4c;
+border: 1px #d1ec4c outset;
+padding: 1px 4px;
+color: black;
+text-decoration: none;
+font: bold 90% "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+font-size: 11px;
+}
+
+.cssbutton1{ 
+background-color: #d1ec4c;
+border: 1px #d1ec4c outset;
+padding: 1px 4px;
+color: black;
+text-decoration: none;
+font: bold 90% "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+font-size: 14px;
+}
+
+.cssbutton2{ background-color: #d1ec4c;
+border: 1px #d1ec4c outset;
+padding: 1px 4px;
+color: black;
+text-decoration: none;
+font: bold 90% "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+.cssbutton:visited{
+color: black;
+}
+
+.cssbutton1:visited{
+color: black;
+}
+
+.cssbutton2:visited{
+color: black;
+}
+
+.cssbutton:hover{
+border-style: inset;
+background-color: #e3f48e;
+padding: 2px 3px 0 5px; /*shift text 1px to the right and down*/
+}
+
+.cssbutton1:hover{
+border-style: inset;
+background-color: #e3f48e;
+padding: 2px 3px 0 5px; /*shift text 1px to the right and down*/
+}
+
+.cssbutton2:hover{
+border-style: inset;
+background-color: #e3f48e;
+padding: 2px 3px 0 5px; /*shift text 1px to the right and down*/
+}
+
+.cssbutton:active{
+color: black;
+}
+
+.cssbutton1:active{
+color: black;
+}
+
+.cssbutton2:active{
+color: black;
+}
+/*FINE*/

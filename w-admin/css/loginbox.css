@@ -1,0 +1,250 @@
+
+#loginbox {
+background: #2e2e2e url('../immagini/login_bg.png') no-repeat;
+width: 934px;
+height: 38px;
+margin: 0 auto;
+font: 13px Arial, Sans-serif;
+}		
+
+
+#loginbox a:link,  #loginbox a:visited,  #loginbox a:active  {
+
+ color: #ececec;  
+ text-decoration: none;
+ }
+ 
+#loginbox a:hover {
+color: #65d3fb;
+
+  } 
+
+#sinistra, #sinistra2 {
+width: 405px;
+padding: 8px 0 0 0;
+margin: 0;
+
+float: left;
+display: inline;
+text-align: left;
+height: 30px;
+vertical-align: middle;
+}
+
+#sinistra2 {
+width: 68px;
+}
+
+
+#sinistra-login {
+width: 34px;
+margin: 1px -15px 0 15px;
+float: left;
+display: inline;
+text-align: left;
+color: #ececec;
+
+}
+
+* html #sinistra-login { /* Fuck Ie */
+margin-top: 2px;
+}
+
+
+#sinistra-login .avatar {
+border: 1px solid #828282;
+width: 31px;
+height: 31px;
+}
+
+#sinistra-login-su {
+width: 30px;
+
+margin-top:1px;
+}
+
+* html #sinistra-login-su { /* Fuck IE */
+margin-top: -1px;
+}
+
+
+#destra {
+width: 370px;
+margin: 0 0px 0 15px;
+float: left;
+display: inline;
+height: 22px;
+text-align: left;
+color: #ececec;
+
+}
+
+#destra span {
+font-size: 10px;
+font-weight: bold;
+}
+
+
+#destrasu {
+width: 370px;
+height: 17px;
+margin-top:2px;
+}
+
+#destrasu .username {
+font-size: 15px;
+font-weight: bold;
+}
+
+
+
+
+
+#destragiu {
+width: 370px;
+height: 17px;
+margin-top: 1px;
+
+}
+
+
+
+
+#destrasu img{
+border: none;
+vertical-align: middle;
+
+}
+
+
+#destra-logged {
+width: 570px;
+margin: 0 0px 0 18px;
+
+float: left;
+display: inline;
+text-align: left;
+color: #ececec;
+
+}
+
+#destra-logged span {
+font-size: 10px;
+font-weight: bold;
+}
+
+
+#destrasu-logged {
+width: 570px;
+height: 17px;
+margin-top:2px;
+}
+
+#destrasu-logged .username {
+font-size: 15px;
+font-weight: bold;
+}
+
+
+
+#destragiu-logged {
+width: 570px;
+height: 17px;
+margin-top: 1px;
+
+}
+
+* html #destragiu-logged { /* FUck IE */
+margin-top: -1px;bu
+}
+
+
+#destrasu img{
+border: none;
+vertical-align: middle;
+
+}
+
+
+
+form.login {
+padding:0px 0px 0px 0px;
+margin:  0px 0 0px;
+height: 38px;
+width: auto;
+font-size: 11px;
+border: none;
+}
+
+* html .check { /*fuck ie*/
+margin: 0 2px 0 5px;
+padding: 2px 0 0 0;
+}
+
+.check {
+vertical-align: middle;
+border: none;
+font-size: 2px;
+width: 10px;
+height: 10px;
+margin: 0 2px 0 5px;
+
+}
+input.login {
+margin:0px 6px 0 0px;
+padding: 1px 5px 1px 5px;
+border-top:1px solid #2f2f2f;
+border-left:1px solid #2f2f2f;
+border-right:1px solid #828282;
+border-bottom:1px solid #828282;
+background: #ececec url(../immagini/form.gif) repeat-x;
+color: #828282;
+height: auto;
+font-size: 11px;
+width: 95px;
+vertical-align: middle;
+
+
+}
+
+label.login{
+color: #ececec;
+font-size: 11px;
+font-weight: bold;
+margin: 0 9px 0 10px;
+vertical-align: middle;
+
+
+
+}
+
+
+.login-button {
+margin: -9px 0 0 0;
+padding: 0;
+background: url(../immagini/login_button.png) no-repeat;
+border: none;
+height: 37px;
+color: #65d3fb;
+font-weight: bold;
+width: 65px;
+font-size: 11px;
+}
+
+.bottone {
+width: 66px;
+height: 27px;
+padding: 11px 0px 0px 0px;
+margin: 0 8px 0 0px;
+background: url(../immagini/login_button.png) no-repeat;
+border: none;
+display: inline;
+font-size: 12px;
+font-weight: bold;
+clear: none;
+text-align: center;
+ }
+ 
+
+
+

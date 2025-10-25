@@ -1,0 +1,515 @@
+/*
+Theme Name: ARKOSOFT
+Theme URI: http://www.arkosoft.it
+Description: Style grafico per il pannello S-Admin.
+Author: Arkosoft
+Author URI: http://www.arkosoft.it/
+*/
+
+body{
+	background-color: #333333;
+}	
+hr{
+	background-color: #000000;
+	width: 99%;
+	height: 1px;
+	text-align: left;
+	border: 0px;
+}
+textarea{
+	resize: none;
+}
+/* BACHECA*/
+.tabellarecord{
+	border: 1px solid #5788AF;
+	width: 340px; 
+	height: 235px; 
+	font-family: Arial; 
+	color: #fff; 
+	font-weight: bold;
+}
+.sinistra10{
+	padding-left: 10px;
+}
+.allineasu{
+	vertical-align: top;
+}
+.box1{
+	width:100%; 
+	border: 1px solid #000;
+	height: 767px;
+	background-color: #F0FFEC;
+}
+.box2{
+	width:100%; 
+	height: 100px;
+	background-color: #fff;
+}
+.prodottiultimi{
+	width: 98%; 
+	border: 1px solid #009900; 
+	font-family: arial; 
+	font-size: 16px; 
+	padding: 10px 0px 15px 50px;
+}
+.ultimic{
+	width: 600px; 
+	border: 1px solid #000;
+}
+.ultimit{
+	width: 30%; 
+	height: 130px; 
+	overflow: hidden; 
+	border: 1 solid #000; 
+	float: left; 
+	font-family: arial; 
+	font-size: 16px; 
+	text-align: center;
+}
+.ultimid a{
+	color: #000;
+	text-decoration: none;
+}
+.ultimid{
+	width: 70%; 
+	height: 130px; 
+	overflow: hidden; 
+	border: 1 solid #000; 
+	float: left; 
+}	
+.record{
+	color: #333; 
+	font-size: 16px; 
+	font-family: verdana;
+}	
+.recordutenti{
+	color: #333; 
+	font-size: 15px; 
+	font-family: verdana;
+	padding-left: 10px;
+}
+.recordutenti a{
+	text-decoration: none;
+	color: #000;
+}
+.numrecord{
+	padding-left: 10px;
+	padding-right: 7px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #4E7CA3;	
+}	
+.statistiche{
+	float: left; 
+	margin-top: 0px;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+.box3{
+	width:100%; 
+	float: left;
+	background-color: #F0FFEC;
+}
+.menusinistra{
+	width: 22%;
+	height: 100%;
+	background-color: #F0FFEC;
+	font-size: 18px;
+	float:left;
+}
+.menucentro{
+	width: 100%;
+	max-width: 770px;
+	background-color: #F0FFEC;
+	font-size: 30px;
+	font-family: Arial;
+	float: left;
+	padding-top: 20px;
+}
+.header{
+	width: 64%;
+	float: left;
+	height: 100%;
+}
+.header1{
+	width: 36%;
+	height: 100%;
+	float: left;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+}
+.profilo{
+	text-align: right; 
+	padding-top: 10px; 
+	padding-right: 30px;
+}
+.profilo a{
+	text-decoration: none;
+	color: #fff;
+}	
+.testoheader1{
+	padding-top: 40px;
+}
+.categoria{
+	background: #EFEFEF url('../immagini/titolomenu.jpg') no-repeat; 
+	height:35px;
+	padding: 7px 0px 0px 10px;
+}
+
+.numpag{
+	float:left; 
+	width: 40%;
+	font-family: Verdana; 
+	font-size: 11px; 
+	font-weight: bold; 
+	padding-top: 10px;
+}
+
+.linkvisual{
+	color: #000;
+}
+
+.ricerca{
+	float:left; 
+	width: 58%;
+	font-family: Verdana; 
+	font-size: 11px; 
+	font-weight: bold; 
+	padding-top: 10px; 
+	text-align: right;
+}
+
+.contentitolo{
+	font-family: Arial;
+	font-size:	15px;
+	width: 100%;
+	float: left;
+}
+.contentitolo1{
+	font-family: Arial;
+	font-size:	15px;
+	width: 100%;
+	margin-top: 20px;
+}
+.marcaleft{
+	width: 60%;
+	float: left;
+	padding-top: 20px;
+}
+.marca{
+	width: 90%;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.boxreg{
+	padding:5px 0px;
+}
+.boxreg div{
+	width: 117px;
+	font-weight: bold;
+	float:left;
+}
+.boxreg select{
+	margin-right: 5px;
+}
+.boxreg input{
+	width: 300px;
+}
+.boxreg #sesso{
+	width: auto;
+}
+.boxreg #citta{
+	width: 125px;
+}
+.boxreg #provincia{
+	margin-left: 2px;
+	width: 88px;
+}
+/* css condizionale per EDGE */
+@supports (-ms-accelerator:true) {
+	.boxreg #provincia{
+		width: 86px;
+	}
+}
+.boxreg #via{
+	width: 199px;
+}
+.boxreg #cap{
+	margin-left: 5px;
+	width: 50px;
+}
+/* css condizionale per EDGE */
+@supports (-ms-accelerator:true) {
+	.boxreg #cap{
+		width: 48px;
+	}
+}
+.boxreg #newsletter{
+	width: auto;
+}
+.reg{
+	background-color: #D5E2EB; 
+	width:98%; 
+	height: auto; 
+	padding:5px 0px 5px 5px; 
+	font-family: Verdana; 
+	font-weight: bold;
+}
+.messaggio{
+	border:1px solid #000; 
+	font-size: 15px; 
+	font-family: Arial; 
+	font-weight: bold;
+	height: auto;
+	padding: 5px;
+	background-color:#FFFF9D;
+	margin-bottom: 10px;
+}
+.erroremsg{
+	border:1px solid #000; 
+	font-size: 15px; 
+	font-family: Arial; 
+	font-weight: bold;
+	padding: 5px;
+	background-color:#FF6A6A;
+	margin-bottom: 10px;
+}
+.bottone{
+	text-align:left;
+	width: 500px;
+	margin-top: 30px;
+}
+.bottonereg{
+	text-align:right; 
+	width: 425px;
+	float: left;
+}
+.divtitolo{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x; 
+	font-size: 14px; 
+	font-family: Arial; 
+	height: 32px; 
+	padding-top: 7px; 
+	font-weight:bold; 
+	width:80px; 
+	float:left;
+	text-align: center;
+	margin-top: 30px;
+}
+.divtitolo2{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x; 
+	font-size: 14px; 
+	font-family: Arial; 
+	height: 32px; 
+	padding-top: 7px; 
+	font-weight:bold; 
+	width:50px; 
+	float:left;
+	text-align: center;
+	margin-top: 30px;
+	padding-right: 5px;
+}
+.divtitolo1{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x; 
+	font-size: 14px; 
+	font-family: Arial; 
+	height: 32px; 
+	padding-top: 7px; 
+	font-weight:bold; 
+	width:344px; 
+	float:left;
+	text-align: center;
+	margin-top: 30px;
+	padding-right: 5px;
+}
+.divpiede{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x;  
+	width: 720px; 
+	float:left;
+	padding-right: 10px;
+}
+.divid{
+	width: 40px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	font-size: 16px; 
+	font-family: Arial; 
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 2px;
+	height: 44px;
+	font-weight: bold;
+}
+.dividb{
+	width: 40px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	font-size: 16px; 
+	font-family: Arial; 
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 2px;
+	height: 44px;
+	font-weight: bold;
+	background-color: #FF7575;
+}
+.divnome{
+	width: 352px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	padding-top: 12px;	
+	padding-bottom: 2px;
+	height: 44px;
+}
+.divnomeb{
+	width: 440px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	padding-top: 12px;	
+	padding-bottom: 2px;
+	height: 44px;
+	background-color: #FF7575;
+}
+.divnome div{
+	padding-left: 5px;
+	font-size: 16px; 
+	font-family: Arial; 
+}
+
+.divnomeb div{
+	padding-left: 5px;
+	font-size: 16px; 
+	font-family: Arial; 
+}	
+.divgestione{
+	font-size: 13px; 
+	font-family: Arial; 
+	width: 80px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	text-align: center;
+	padding-top: 6px;
+	height: 52px;
+}
+.divgestioneb{
+	font-size: 13px; 
+	font-family: Arial; 
+	width: 80px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	text-align: center;
+	padding-top: 6px;
+	height: 44px;
+	background-color: #FF7575;
+}
+.divgestione a{
+	color: #0000ff;
+	font-weight:bold;
+}
+.pagine{
+	font-size: 15px; 
+	font-family: Arial; 
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.altrilink{
+	text-decoration: none;
+	color:#0000ff;
+}
+.linkcorrente{
+	color:#000;
+}
+.obbligatorio{
+	color: #ff0000;
+	font-weight: bold;
+}
+
+/*CARICO PRODOTTI*/
+.boximg{
+	float: left;
+}
+.gestioneimg{
+	width:100%; 
+	height: 30px; 
+	padding-top: 7px; 
+	margin-bottom: 20px;  
+	background-color: #D5E2EB;
+}
+.bottonegestioneimg{
+	background: #F0FFEC url('../immagini/gestioneimg.gif') no-repeat; 
+	height: 70px;
+	width: 150px;
+	border: 0px;
+	color: #ff0000;
+	padding-top: 70px;
+}
+.listaimg{
+	margin-bottom: 20px; 
+	float: left;
+	width: 30%;
+}
+.bottoneimg{
+	margin-bottom: 20px; 
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+.desc{
+	width: 50%; 
+	float: left;
+}
+.listbox{
+	height:270px; 
+	width:210px;
+}
+.offerte{
+	font-family: arial; 
+	font-size: 14px; 
+	font-weight: bold;
+}
+.offerte1{
+	font-family: arial; 
+	font-size: 14px; 
+	font-weight: bold;
+	background-color: #D5E2EB;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+.divcentro{
+	width: 10px; 
+	float:left;
+}
+/*FINE CARICO PRODOTTI*/
+
+/*NEWSLETTER*/
+#oscura {
+	background-color:#333;
+	display:none;
+	height:100%;
+	left:0px;
+	filter:alpha(opacity=90);
+	-moz-opacity:.90;
+	opacity:.90;
+	position:absolute;
+	top:0px;
+	width:100%;
+	z-index:0;
+}
+/*FINE NEWSLETTER*/
+.btn-navigazione-preventivo {
+    margin-left: 10px;
+    border: 1px solid #000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 2px;
+    color: #000;
+    font-weight: bold;
+}

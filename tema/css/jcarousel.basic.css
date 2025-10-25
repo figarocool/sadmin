@@ -1,0 +1,142 @@
+.jcarousel-wrapper {
+    position: relative;
+    max-height: 600px;
+	height: auto;
+	width: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+	max-width: 1024px;
+	padding-top: 20px;
+}
+.jcarousel {
+    overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+	position: relative;
+}
+.jcarousel li img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+.jcarousel li .descslide{
+	width: 80%;
+	max-width: 400px;
+	height: auto;
+	position: absolute;
+	top: 0;
+    right: 0;
+	background-color: rgba(255,255,255,0.8);
+	padding: 10px;
+}
+@media only screen and (max-width: 550px) {
+	.jcarousel li .descslide{
+		width: 100%;
+		max-width: 100%;
+		position: relative;
+		padding: 0px;
+	}
+}
+.jcarousel li .descslide p{
+	color: #333333;
+	font-size: 12px;
+	text-align: left;
+	font-weight: normal;
+	margin: 5px;
+}
+.jcarousel li .descslide #nome{
+	font-weight: bold;
+	font-size: 15px;
+}
+.jcarousel li .descslide #desc{
+	font-weight: normal;
+	margin-top: 15px;
+}
+.jcarousel li .descslide #stile{
+	margin: 0px 5px;
+}
+.jcarousel-control-prev,
+.jcarousel-control-next {
+	position: absolute;
+	top: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #4E443C;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 0 2px #999;
+	-moz-box-shadow: 0 0 2px #999;
+	box-shadow: 0 0 2px #999;
+}
+@media only screen and (max-width: 550px) {
+	.jcarousel-control-prev, .jcarousel-control-next{
+		top: 25%;
+	}
+}
+.jcarousel-control-prev {
+    left: 20px;
+}
+.jcarousel-control-next {
+    right: 20px;
+}
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+.jcarousel-pagination {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+	text-align: center;
+	width: 100%;
+}
+@media only screen and (max-width: 550px) {
+	.jcarousel-pagination{
+		top: 0px;
+		bottom: auto;
+	}
+}
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    background: #fff;
+    color: #4E443C;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    margin-right: 2px;
+    opacity: .75;
+}
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}

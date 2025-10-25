@@ -1,0 +1,233 @@
+  
+.mainDiv
+{
+  width:160px;
+  font-family: Arial;
+}
+.topItem {
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenu1.jpg') no-repeat; 
+ 
+}
+.topItemm {
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenum.jpg') no-repeat; 
+ 
+}
+
+.topItem1 {
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenu2.jpg') no-repeat; 
+ 
+}
+
+.topItem2 {
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenu3.jpg') no-repeat; 
+}
+
+.topItem4 {
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenu5.jpg') no-repeat; 
+}
+
+.topItem5 {
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenu4.jpg') repeat-y; 
+ 
+}
+.topItem6 {
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenu6.jpg') repeat-y; 
+ 
+}
+.topItem7 {
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenu7.jpg') repeat-y; 
+ 
+}
+
+.topItem8 {
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenu8.jpg') no-repeat; 
+ 
+}
+
+.topItem9{
+	display: block;
+	width: 190px;
+	height: 35px;
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	background: #EFEFEF url('../immagini/titolomenu9.jpg') no-repeat; 
+}
+
+.topItem label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+.topItemm label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+
+.topItem1 label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+
+.topItem2 label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+
+.topItem3 label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+
+.topItem4 label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+
+.topItem5 label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+.topItem6 label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+.topItem7 label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+.topItem8 label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+
+.topItem9 label{
+	position: absolute;
+	margin-top:8px;
+	padding-left: 40px;
+}
+
+.dropMenu
+{
+  background:#D9D9D9;
+  border-top:1px solid #467BF2;
+  border-left:1px solid #92B1F8;
+  border-right:1px solid #92B1F8;
+  border-bottom:1px solid #92B1F8;
+}
+
+.subMenu
+{
+   display:none;
+   width: 188px;
+   height: 100%;
+}
+.subItem
+{
+	position: absolute;
+	padding-left:5px;
+	text-decoration:none;
+	color:black;
+	font-size: 14px;
+}
+
+.subItem a
+{
+   text-decoration:none;
+   color:black;
+}
+
+.subItemOver
+{
+   text-decoration:none;
+   font-weight:bold;
+   padding-left:5px;
+   font-size: 13px;
+}
+
+.subItemOver  a
+{
+   color:black;
+   text-decoration: none;
+}
+
+
+.drop
+{
+   border-left:1px solid black;
+   border-right:1px solid black;	
+}
+

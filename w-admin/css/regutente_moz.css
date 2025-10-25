@@ -1,0 +1,412 @@
+/*
+Theme Name: ARKOSOFT
+Theme URI: http://www.arkosoft.it
+Description: Style grafico per il pannello S-Admin.
+Author: Arkosoft
+Author URI: http://www.arkosoft.it/
+*/
+
+body{
+	background-color: #333333;
+}	
+
+hr{
+	color: #005128;
+	width: 99%;
+	text-align: left;
+}
+
+/* BACHECA*/
+.box1{
+	width:100%; 
+	border: 1px solid #000;
+	height: 1000px;
+	background-color: #F0FFEC;
+}
+.box2{
+	width:100%;
+	height: 100px;
+	background-color: #fff;
+}
+.box3{
+	width:100%; 
+	height: 650px;
+	background-color: #F0FFEC;
+}
+.menusinistra{
+	width: 22%;
+	height: 100%;
+	background-color: #F0FFEC;
+	font-size: 18px;
+	float:left;
+}
+.menucentro{
+	width: 770px;
+	height: 80%;
+	background-color: #F0FFEC;
+	font-size: 30px;
+	font-family: Monotype Corsiva;
+	float: left;
+	padding-top: 20px;
+}
+.header{
+	width: 64%;
+	float: left;
+	height: 100%;
+}
+.header1{
+	width: 36%;
+	height: 100%;
+	float: left;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+}
+.profilo{
+	text-align: right; 
+	padding-top: 10px; 
+	padding-right: 30px;
+}
+.profilo a{
+	text-decoration: none;
+	color: #fff;
+}	
+.testoheader1{
+	padding-top: 40px;
+}
+.categoria{
+	background: #EFEFEF url('../immagini/titolomenu.jpg') no-repeat; 
+	height:35px;
+	padding: 7px 0px 0px 10px;
+}
+
+.numpag{
+	float:left; 
+	width: 40%;
+	font-family: Verdana; 
+	font-size: 11px; 
+	font-weight: bold; 
+	padding-top: 10px;
+}
+
+.linkvisual{
+	color: #000;
+}
+
+.ricerca{
+	float:right; 
+	width: 58%; 
+	font-family: Verdana; 
+	font-size: 11px; 
+	font-weight: bold; 
+	padding-top: 10px; 
+	text-align: right;
+}
+
+.contentitolo{
+	font-family: Arial;
+	font-size:	15px;
+	width: 95%;
+}
+.contentitolo1{
+	font-family: Arial;
+	font-size:	15px;
+	width: 100%;
+	margin-top: 20px;
+}
+.marcaleft{
+	width: 60%;
+	float: left;
+	padding-top: 20px;
+}
+.marca{
+	width: 90%;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.boxreg{
+	padding:5px 0px 5px 5px;
+}
+.boxreg div{
+	width: 100px;
+	font-weight: bold;
+	float:left;
+}
+.reg{
+	background-color: #D5E2EB; 
+	width:92%; 
+	height: 30px; 
+	padding:5px 0px 5px 5px; 
+	font-family: Verdana; 
+	font-weight: bold;
+}
+.messaggio{
+	border:1px solid #000; 
+	font-size: 15px; 
+	font-family: Arial; 
+	font-weight: bold;
+	height: 30px;
+	padding: 5px 0px 0px 5px;
+	background-color:#FFFF9D;
+	margin-bottom: 10px;
+}
+.erroremsg{
+	border:1px solid #000; 
+	font-size: 15px; 
+	font-family: Arial; 
+	font-weight: bold;
+	padding: 5px 0px 0px 5px;
+	background-color:#FF6A6A;
+	margin-bottom: 10px;
+}
+.bottone{
+	text-align:right; 
+	padding-right: 70px;
+}
+.bottonereg{
+	text-align:right; 
+	padding-right: 280px;
+}
+.divtitolo{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x; 
+	font-size: 14px; 
+	font-family: Arial; 
+	height: 32px; 
+	padding-top: 7px; 
+	font-weight:bold; 
+	width:78px; 
+	float:left;
+	margin-top: 30px;
+	padding-left:5px;
+}
+.divtitolo2{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x; 
+	font-size: 14px; 
+	font-family: Arial; 
+	height: 32px; 
+	padding-top: 7px; 
+	font-weight:bold; 
+	width:50px; 
+	float:left;
+	text-align: center;
+	margin-top: 30px;
+	padding-right: 5px;
+}
+.divtitolo1{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x; 
+	font-size: 14px; 
+	font-family: Arial; 
+	height: 32px; 
+	padding-top: 7px; 
+	font-weight:bold; 
+	width:420px; 
+	float:left;
+	text-align: center;
+	margin-top: 30px;
+	padding-right: 5px;
+}
+.divtitoloa{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x; 
+	font-size: 14px; 
+	font-family: Arial; 
+	height: 32px; 
+	padding-top: 7px; 
+	font-weight:bold; 
+	width:80px; 
+	float:left;
+	margin-top: 30px;
+	padding-left:5px;
+}
+.divtitoloc{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x; 
+	font-size: 14px; 
+	font-family: Arial; 
+	height: 32px; 
+	padding-top: 7px; 
+	font-weight:bold; 
+	width:50px; 
+	float:left;
+	text-align: center;
+	margin-top: 30px;
+	padding-right: 5px;
+}
+.divtitolob{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x; 
+	font-size: 14px; 
+	font-family: Arial; 
+	height: 32px; 
+	padding-top: 7px; 
+	font-weight:bold; 
+	width:500px; 
+	float:left;
+	text-align: center;
+	margin-top: 30px;
+	padding-right: 5px;
+}
+.divpiede{
+	background: #EFEFEF url('../immagini/titolo.jpg') repeat-x;  
+	width: 100%; 
+	float:left;
+}
+.divid{
+	width: 40px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	font-size: 16px; 
+	font-family: Arial; 
+	text-align: center;
+	padding-top: 11px;
+	padding-bottom: 2px;
+	height: 41px;
+	font-weight: bold;
+}
+.dividb{
+	width: 40px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	font-size: 16px; 
+	font-family: Arial; 
+	text-align: center;
+	padding-top: 11px;
+	padding-bottom: 2px;
+	height: 31px;
+	font-weight: bold;
+	background-color: #FF7575;
+}
+.divnome{
+	width: 440px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	padding-top: 12px;	
+	padding-bottom: 2px;
+	height: 40px;
+}
+.divnomea{
+	width: 520px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	padding-top: 12px;	
+	font-family: Arial;
+	padding-bottom: 2px;
+	font-size: 16px; 
+	height: 40px;
+}
+.divnomeb{
+	width: 440px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	padding-top: 12px;	
+	padding-bottom: 2px;
+	height: 40px;
+	background-color: #FF7575;
+}
+.divnome div{
+	padding-left: 5px;
+	font-size: 16px; 
+	font-family: Arial; 
+}
+
+.divnomeb div{
+	padding-left: 5px;
+	font-size: 16px; 
+	font-family: Arial; 
+}	
+.divgestione{
+	font-size: 13px; 
+	font-family: Arial; 
+	width: 80px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	text-align: center;
+	padding-top: 6px;
+	height: 48px;
+}
+.divgestioneb{
+	font-size: 13px; 
+	font-family: Arial; 
+	width: 80px; 
+	border: 1px solid #B1B1B1;
+	float:left;
+	text-align: center;
+	padding-top: 6px;
+	height: 48px;
+	background-color: #FF7575;
+}
+.divgestione a{
+	color: #0000ff;
+	font-weight:bold;
+}
+.pagine{
+	font-size: 15px; 
+	font-family: Arial; 
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+	float: left;
+}
+
+.altrilink{
+	text-decoration: none;
+	color:#0000ff;
+}
+.linkcorrente{
+	color:#000;
+}
+.obbligatorio{
+	color: #ff0000;
+	font-weight: bold;
+}
+
+/*CARICO PRODOTTI*/
+.boximg{
+	float: left;
+}
+.gestioneimg{
+	width:100%; 
+	height: 30px; 
+	padding-top: 7px; 
+	margin-bottom: 20px;  
+	background-color: #D5E2EB;
+}
+.listaimg{
+	margin-bottom: 20px; 
+	float: left;
+	width: 30%;
+}
+.bottoneimg{
+	margin-bottom: 20px; 
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+.desc{
+	width: 50%; 
+	float: left;
+}
+.listbox{
+	height:270px; 
+	width:210px;
+}
+.offerte{
+	font-family: arial; 
+	font-size: 14px; 
+	font-weight: bold;
+}
+.offerte1{
+	font-family: arial; 
+	font-size: 14px; 
+	font-weight: bold;
+	background-color: #D5E2EB;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+.divcentro{
+	width: 10px; 
+	float:left;
+}
+/*FINE CARICO PRODOTTI*/
