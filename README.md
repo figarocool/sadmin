@@ -104,13 +104,20 @@ sadmin/
 
 ### Procedura di Installazione
 1. Caricare i file sul server web
-2. Impostare i permessi di scrittura per le cartelle:
+2. **IMPORTANTE**: Copiare `config.example.php` in `config.php` e configurare le credenziali database
+3. Impostare i permessi di scrittura per le cartelle:
    - `upload/` (0777)
    - `banner/` (0777)
    - `tmpimmagini/` (0777)
-3. Accedere a `/installazione/passo1.php`
-4. Seguire la procedura guidata di installazione
-5. Configurare database e amministratore
+4. Accedere a `/installazione/passo1.php`
+5. Seguire la procedura guidata di installazione
+6. Configurare database e amministratore
+
+### ⚠️ Sicurezza
+- **NON** committare mai il file `config.php` con credenziali reali
+- Utilizzare sempre `config.example.php` come template
+- Cambiare tutte le password di default
+- Utilizzare HTTPS in produzione
 
 ## Funzionalità Dettagliate
 

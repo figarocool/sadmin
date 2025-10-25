@@ -1,0 +1,44 @@
+# File di configurazione con credenziali sensibili
+config.php
+
+# File temporanei
+tmpimmagini/*
+!tmpimmagini/.gitkeep
+
+# Log files
+*.log
+error.log
+access.log
+
+# File di backup
+*.bak
+*.backup
+*.sql
+
+# File di sistema
+.DS_Store
+Thumbs.db
+*.tmp
+
+# File di upload utenti (mantenere struttura ma non contenuto)
+upload/*
+!upload/.gitkeep
+!upload/marche/.gitkeep
+
+# File di banner (mantenere struttura ma non contenuto)
+banner/*
+!banner/.gitkeep
+
+# File di preventivi inviati
+preventiviinviati/*
+!preventiviinviati/.gitkeep
+
+# File di gestione immagini preventivi
+gestioneimmaginipreventivi/*
+!gestioneimmaginipreventivi/.gitkeep
+
+# File di sessione
+sessions/
+
+# File di cache
+cache/
